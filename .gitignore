@@ -1,0 +1,30 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+env/
+venv/
+*.log
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Docker
+*.pid
+*.seed
+*.tar
+*.sql
+*.db
+**/pgdata/
+docker-data/
+volumes/
+.env
+
+# macOS
+.DS_Store
+
+# VSCode / JetBrains
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+services:
+  db:
+    build: ./db
+    container_name: dbboard
+    restart: always
+    environment:
+      POSTGRES_USER: famboard
+      POSTGRES_PASSWORD: Almas2514
+      POSTGRES_DB: db_famboard
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  postgres_data:
