@@ -5,23 +5,6 @@ __pycache__/
 env/
 venv/
 *.log
-
-# Node / React
-node_modules/
-dist/
-build/
-
-# Docker
-*.pid
-*.seed
-*.tar
-*.sql
-*.db
-**/pgdata/
-docker-data/
-volumes/
-.env
-
 # macOS
 .DS_Store
 
